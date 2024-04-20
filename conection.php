@@ -1,7 +1,7 @@
 <?php
 $host = 'sql5.freesqldatabase.com';
-$User = 'root';
-$pass = '';
+$User = 'sql5700488';
+$pass = 'KbPtF73fDV';
 
 $db = 'cliente';
 $conection = mysqli_connect($host, $User , $pass, $db);
