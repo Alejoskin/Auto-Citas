@@ -1,0 +1,92 @@
+body{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130vh;
+    flex-direction: column;
+    
+}
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans' , sans-serif;
+    font-family: 'PT Sans' , sans-serif;
+    box-sizing: border-box;
+}
+
+form {
+    width: 500px;
+    border: 2px solid black;
+    padding: 5rem;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
+
+h1{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+label{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: 300;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+button{
+    float: right;
+    background-color:orange;
+    padding: .5rem;
+    color:white;
+    border:none;
+    width: 40%;
+    border-radius: 5px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+button:hover{
+    background-color: white;
+    color: black;
+
+}
+a{
+    float: left;
+    background-color: orange;
+    padding: .5rem;
+    color:white;
+    border:none;
+    width: 40%;
+    border-radius: 5px;
+    margin-left: 15px;
+    text-decoration: none;
+    text-align: center;
+
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.error{
+    background-color: red;
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
