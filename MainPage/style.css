@@ -42,12 +42,21 @@ label {
 input[type="text"],
 input[type="tel"],
 input[type="date"],
+
 button {
   margin-bottom: 10px;
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
   color: black; 
+}
+
+client-list {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: black;
 }
 
 input[type="text"],
