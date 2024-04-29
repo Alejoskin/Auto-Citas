@@ -8,7 +8,7 @@
 </head>
 <body>
   <header>
-    <button class="logout">Log Out</button>
+    <a class="button">Log Out</a>
     <a href="listaClientes.php" class="button" >List of Clients</a>
   </header>
   <div class="container">
@@ -17,11 +17,11 @@
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required>
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+      <input type="tel" id="phone" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
       <label for="date">Date of Appointment:</label>
       <input type="date" id="date" name="date" required>
       
-      <button input type="submit" name="submit" >Book Appointment</button>
+      <a class="button" input type="submit" name="submit" >Book Appointment</a>
     </form>
   </div>
 </body>

@@ -1,12 +1,9 @@
-<!-- Aqui va el php para insertar-->"
+<!-- Aqui va el php para insertar-->
 <?php
 	include("conection.php");
 	$query = "select * from clientes";
 	$result = mysqli_query($db, $query);
 ?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,8 +16,8 @@
 
 <body>
   <header>
-    <button class="logout">Log Out</button>
-    <button class="client-list">List of Clients</button>
+    <a class="button">Log Out</a>
+    <a href="main.php" class="button" >Main Page</a>
   </header>
   
   <div class="container">

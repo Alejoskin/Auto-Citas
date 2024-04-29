@@ -43,7 +43,7 @@ input[type="text"],
 input[type="tel"],
 input[type="date"],
 
-button {
+a.button {
   margin-bottom: 10px;
   padding: 8px;
   border: 1px solid #ccc;
@@ -65,7 +65,7 @@ input[type="date"] {
   width: calc(100% - 20px);
 }
 
-button {
+a.button {
   align-items: center;
   background-color: #fff;
   border: 2px solid #000;
