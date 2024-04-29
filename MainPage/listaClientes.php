@@ -13,16 +13,14 @@
   <title>Appointment Booking Form</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
   <header>
     <a class="button">Log Out</a>
     <a href="main.php" class="button" >Main Page</a>
   </header>
-  
   <div class="container">
 	<h1> Lista de Clientes</h1> 
-	<form action="" method="POST class"">
+	<form action="" method="POST class" >
 		
 	<table class="w3-table-all">
 		<tr class="w3-teal">
